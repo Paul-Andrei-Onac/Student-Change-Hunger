@@ -1,0 +1,1027 @@
+/*
+Theme Name: Student Change Hunger;
+Author: Onac Paul Andrei;
+*/
+
+
+
+@font-face{
+	src: url(PermanentMarker-Regular.ttf);
+	font-family: Regular;
+}
+
+body {
+	background: #f7f3ea;
+}
+
+header {
+	background: #f7f3ea;
+	widht: 100%;
+	height: 0px;
+}
+
+.navigation {
+
+}
+
+nav {
+	float: right;
+	margin-left: 950px;
+	margin-top: -50px;
+	position: absolute;
+}
+
+.logo {
+	margin-top: -50px;
+	margin-left: 150px;
+	width: 10%;
+	position: absolute;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-family: Segoe UI;
+	font-weight: 600;
+}
+
+.gradclass {
+	display: inline-block;
+	float: right;
+	opacity: 0.9;
+	margin-top: -110px;
+	margin-left: 1490px;
+	margin-bottom: -620px;
+	width: 413px;
+	height: 1018px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    background: linear-gradient(rgb(241, 90, 41,0.7), rgb(241, 90, 41,0.7)), url("gradient.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.firsth1 {
+	font-family: PermanentMarker-Regular, Regular;
+	font: normal normal normal 48px/69px;
+	font-size: 50px;
+	font-style: italic;
+	text-transform: uppercase;
+	line-height: 80px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #313131;
+	padding-top: 190px;
+	padding-left: 150px;
+	margin-bottom: 20px;
+}
+
+.firstp {
+	font-family: Segoe UI;
+	font-weight: 600;
+	padding-left: 150px;
+	margin-right: 1100px;
+	margin-bottom: 50px;
+	color: #202020;
+	top: 481px;
+	left: 156px;
+	width: 586px;
+	height: 84px;
+}
+
+.biglogo {
+	margin-left: 1350px;
+	margin-top: -350px;
+	z-index: 2;
+	width: 302px;
+	height: 274px;
+	position: absolute;
+	float: right;
+}
+
+#art {
+	display: inline-block;
+	float: left;
+	width: 15%;
+}
+
+.column {
+	float: left;
+	width: 100%;
+	padding: 5px;
+	margin-top: 50px;
+	position: absolute;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	position: absolute;
+}
+
+.cfb {
+	padding: 60px 70px 60px 70px;
+	margin-left: 150px;
+	background-color: #eee9e3;
+	position: absolute;
+	width: 260px;
+}
+
+.food {
+	padding: 50px 70px 50px 70px;
+	margin-left: 395px;
+	background-color: #E1DDD7;
+	position: absolute;
+	width: 260px;
+}
+
+.full {
+	padding: 35px 70px 35px 70px;
+	margin-left: 655px;
+	background-color: #eee9e3;
+	position: absolute;
+	width: 260px;
+}
+
+.nor {
+	padding: 25px 60px 25px 40px;
+	margin-left: 915px;
+	background-color: #E1DDD7;
+	position: absolute;
+	width: 290px;
+}
+
+.friends {
+	padding: 60px 90px 60px 90px;
+	margin-left: 1175px;
+	background-color: #eee9e3;
+	position: absolute;
+	width: 260px;
+}
+
+.but {
+	margin-left: 10px;
+	padding: 4px 28px;
+	background: #F15A29 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: white;
+	font-family: Segoe UI;
+	position: absolute;
+}
+.but2 {
+	margin-left: 10px;
+	padding: 4px 28px;
+	background: #F15A29 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: white;
+	font-family: Segoe UI;
+	position: absolute;
+}
+
+.but3 {
+	margin-left: 10px;
+	padding: 4px 28px;
+	background: #F15A29 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: white;
+	font-family: Segoe UI;
+	position: absolute;
+}
+
+.but4 {
+	margin-left: 10px;
+	padding: 4px 28px;
+	background: #F15A29 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: white;
+	font-family: Segoe UI;
+	position: absolute;
+}
+
+.but5 {
+	margin-left: 10px;
+	padding: 4px 28px;
+	background: #F15A29 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: white;
+	font-family: Segoe UI;
+	position: absolute;
+}
+
+.butcol {
+	padding: 10px 10px 10px 10px;
+	margin-left: 150px;
+	margin-top: 189px;
+	background-color: #E1DDD7;
+	position: absolute;
+}
+
+.butcol2 {
+	padding: 10px 10px 10px 10px;
+	margin-left: 395px;
+	margin-top: 189px;
+	background-color: #eee9e3;
+	position: absolute;
+}
+
+.butcol3 {
+	padding: 10px 10px 10px 10px;
+	margin-left: 655px;
+	margin-top: 189px;
+	background-color: #E1DDD7;
+	position: absolute;
+}
+
+.butcol4 {
+	padding: 10px 10px 10px 10px;
+	margin-left: 915px;
+	margin-top: 189px;
+	background-color: #eee9e3;
+	position: absolute;
+}
+
+.butcol5 {
+	padding: 10px 10px 10px 10px;
+	margin-left: 1175px;
+	margin-top: 189px;
+	background-color: #E1DDD7;
+	position: absolute;
+}
+
+.butinfo {
+	display: inline-block;
+	margin-left: 125px;
+	margin-right: 45px;
+	padding: 4px 10px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: #F15A29;
+	font-family: Segoe UI;
+	float: right;
+	position: relative;
+}
+
+.butinfo2 {
+	display: inline-block;
+	margin-left: 125px;
+	margin-right: 15px;
+	padding: 4px 10px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: #F15A29;
+	font-family: Segoe UI;
+	float: right;
+	position: relative;
+}
+
+.butinfo3 {
+	display: inline-block;
+	margin-left: 125px;
+	margin-right: 15px;
+	padding: 4px 10px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: #F15A29;
+	font-family: Segoe UI;
+	float: right;
+	position: relative;
+}
+
+.butinfo4 {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 125px;
+	padding: 4px 10px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: #F15A29;
+	font-family: Segoe UI;
+	float: right;
+	position: relative;
+}
+
+.butinfo5 {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 125px;
+	padding: 4px 10px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	border-color: #F15A29;
+	opacity: 1;
+	font-size: 10px;
+	color: #F15A29;
+	font-family: Segoe UI;
+	float: right;
+	position: relative;
+}
+
+.grad2 {
+	margin-left: -9px;
+	position: absolute;
+	width: 750px;
+	height: 1010px;
+	display: inline-block;
+}
+
+.backgr {
+	background-color: #191A23;
+	height: 850px;
+	width: 1910px;
+	display: inline-block;
+	padding-right: 900px;
+	margin-left: -9px;
+	margin-top: 400px;
+	position: relative;
+}
+
+.about {
+	float: right;
+	margin-top: 150px;
+	margin-left: 850px;
+	margin-right: -240px;
+	text-transform: uppercase;
+	font-family: Permanent Marker, Regular;
+	font-size: 22px;
+	color: white;
+	position: absolute;
+}
+
+.aboutp {
+	float: right;
+	margin-top: 190px;
+	margin-left: 200px;
+	padding-left: 650px;
+	padding-right: 400px;
+	text-align: left;
+	font: normal normal normal 16px/21px Segoe UI;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	position: absolute;
+}
+
+.learn {
+	display: inline-block;
+	float: right;
+	margin-top: 500px;
+	margin-left: 850px;
+	margin-right: -40px;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+	padding: 10px 50px;
+	background-color: #F15C45;
+	font-family: Segoe UI;
+	position: absolute;
+}
+
+.backicon {
+	align-content: center;
+	float: right;
+	display: inline-block;
+	background-color: #F15C45;
+	margin-left: 740px;
+	padding: 50px 50px;
+	margin-top: 710px;
+	position: absolute;
+}
+
+.backicon2 {
+	align-content: center;
+	float: right;
+	display: inline-block;
+	background-color: #222531;
+	margin-left: 1040px;
+	padding: 50px 50px;
+	margin-top: 712px;
+	position: absolute;
+}
+
+.backicon3 {
+	align-content: center;
+	float: right;
+	display: inline-block;
+	background-color: #2F3343;
+	margin-left: 1345px;
+	padding: 50px 75px;
+	margin-top: 713px;
+	position: absolute;
+}
+
+.pad {
+	margin-top: 100px;
+}
+
+.icon {
+	margin-left: 50px;
+	width: 100px;
+}
+
+.icon3 {
+	margin-left: 40px;
+	width: 100px;
+}
+
+.nr {
+	text-align: center;
+	font: normal normal normal 37px/54px Permanent Marker, Regular;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.desc {
+	text-align: center;
+	font: normal normal normal 17px/23px Myriad Pro;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	opacity: 1;
+}
+
+.pad {
+	padding-top: 150px;
+}
+
+.backsch {
+	width: 1500px;
+	margin-top: 900px;
+	display: block;
+	height: 700px;
+	background-color: #191A23;
+	position: absolute;
+}
+
+.tropico {
+	width: 69px;
+	height: 69px;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+
+.troph1 {
+	text-align: left;
+	font: normal normal normal 22px/32px Permanent Marker, Regular;
+	letter-spacing: 0px;
+	margin-top: 30px;
+	color: #FFFFFF;
+	margin-left: 300px;
+}
+
+.tropp {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	margin-left: 300px;
+	margin-top: 20px;
+	width: 45%;
+	font-family: Segoe UI light;
+	font-size: 16px;
+}
+
+.tropimg {
+	margin-top: -421px;
+	height: 850px;
+	display: inline-block;
+	float: right;
+	object-fit: cover;
+	position: absolute;
+	margin-left: 1150px;
+}
+
+.backiconz {
+	float: left;
+	display: inline-block;
+	background-color: #F15C45;
+	margin-left: 216px;
+	padding: 50px 50px;
+	margin-top: 1449px;
+	position: absolute;
+}
+
+.backiconz2 {
+	float: left;
+	display: inline-block;
+	background-color: #222531;
+	margin-left: 519px;
+	padding: 50px 50px;
+	margin-top: 1451px;
+	position: absolute;
+}
+
+.backiconz3 {
+	float: left;
+	display: inline-block;
+	background-color: #2F3343;
+	margin-left: 827px;
+	padding: 50px 75px;
+	margin-top: 1452px;
+	position: absolute;
+}
+
+.pad2 {
+	width: 100%;
+	margin-top: 1300px;
+}
+
+.faq {
+	text-align: center;
+	font: normal normal normal 40px/58px Permanent Marker, Regular;
+	letter-spacing: 0px;
+	color: #0D3B5E;
+	margin-left: 650px;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	position: absolute;
+	display: block;
+}
+
+.faqimg {
+	display: block;
+	margin-left: 350px;
+ 	margin-right: auto;
+ 	margin-top: 100px;
+ 	margin-bottom: 30px;
+ 	position: absolute;
+}
+
+.faqdiv {
+	padding-top: 750px;
+}
+
+.collapsible {
+	background-color: #F7F3EA;
+	cursor: pointer;
+	padding: 18px;
+	width: 50%;
+	border: none;
+	text-align: left;
+	outline: none;
+	display: block;
+	margin-left: 350px;
+	margin-right: 200px;
+	font: normal normal bold 14px/19px Segoe UI;
+	letter-spacing: 0.56px;
+	color: #202020;
+	text-transform: uppercase;
+}
+
+.active, .collapsible:hover {
+	background-color: #F7F3EA;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	display: block;
+	margin-left: 350px;
+	text-align: left;
+	font: normal normal 600 14px/28px Segoe UI;
+	letter-spacing: 0px;
+	color: #202020;
+}
+
+.content {
+	margin-top: -10px;
+}
+
+.pad3 {
+	margin-top: 300px;
+}
+
+.lastd {
+	display: inline-block;
+	background-color: #222531;
+	margin-top: -200px;
+	margin-left: 350px;
+	padding-right: 300px;
+	position: absolute;
+}
+
+.lastimg {
+	display: inline-block;
+	opacity: 0.9;
+	float: left;
+	position: relative;
+	width: 350px;
+}
+
+.lasth1 {
+	font: normal normal 600 32px/43px Segoe UI;
+	display: inline-block;
+	color: white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	position: absolute;
+}
+
+.lastp {
+	font: normal normal 600 14px/28px Segoe UI;
+	display: inline-block;
+	color: white;
+	float: left;
+	margin-left: 50px;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+
+.lastb {
+	display: inline-block;
+	float: left;
+	margin-top: 130px;
+	margin-left: -480px;
+	padding: 10px 40px;
+	font: normal normal 600 14px/19px Segoe UI;
+}
+
+.foot {
+	margin-top: -100px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	padding-bottom: 50px;
+	background-color: #191A23;
+	position: absolute;
+	width: 1910px;
+	z-index: -10;
+}
+
+.logo2 {
+	display: inline-block;
+	margin-top: 200px;
+	margin-left: 150px;
+	width: 140px;
+	height: 127px;
+}
+
+.copy {
+	color: white;
+	display: block;
+	margin-top: 100px;
+	margin-left: 170px;
+}
+
+.navv {
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: -50px;
+	float: right;
+	position: relative;
+
+}
+
+
+@media (max-width: 640px){
+	nav {
+		margin-left: -30px;
+		margin-top: -100px;
+		float: left;
+		position: absolute;
+	}
+
+	.logo{
+		width: 40%;
+		margin-left: 130px;
+	}
+
+	.gradclass {
+		display: none;
+	}
+
+	.firsth1 {
+		font-family: PermanentMarker-Regular, Regular;
+		font: normal normal normal 48px/69px;
+		font-size: 20px;
+		font-style: italic;
+		text-transform: uppercase;
+		line-height: 30px;
+		letter-spacing: 2px;
+		font-weight: 500;
+		color: #313131;
+		padding-top: 100px;
+		margin-bottom: 20px;
+		margin-left: -50px;
+		width: 100%;
+	}
+
+
+	.firstp {
+		font-family: Segoe UI;
+		font-weight: 600;
+		margin-bottom: 50px;
+		color: #202020;
+		margin-left: -145px;
+		height: 82px;
+	}
+	.biglogo {
+		display: none;
+	}
+
+	.column {
+		display: none;
+	}
+	.grad2 {
+		display: none;
+	}
+
+	.backgr {
+		background-color: #191A23;
+		display: inline-block;
+		padding-right: 00px;
+		margin-left: -9px;
+		margin-top: 50px;
+		position: relative;
+		width: 450px;
+		height: 700px;
+	}
+
+	.about {
+		float: right;
+		margin-top: 50px;
+		margin-left: 30px;
+		margin-right: -240px;
+		text-transform: uppercase;
+		font-family: Permanent Marker, Regular;
+		font-size: 22px;
+		color: white;
+		position: absolute;
+	}
+
+	.aboutp {
+		float: right;
+		margin-top: 90px;
+		margin-left: -350px;
+		padding-left: 400px;
+		padding-right: 50px;
+		text-align: left;
+		font: normal normal normal 16px/21px Segoe UI;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		position: absolute;
+	}
+
+	.learn {
+		display: inline-block;
+		float: right;
+		margin-top: 600px;
+		margin-left: 50px;
+		margin-right: -40px;
+		font-family: arial;
+		font-size: 16px;
+		color: white;
+		padding: 10px 50px;
+		background-color: #F15C45;
+		font-family: Segoe UI;
+		position: absolute;
+	}
+
+	.backicon {
+		display: none;
+	}
+
+	.backicon2 {
+		display: none;
+	}
+	.backicon3 {
+		display: none;
+	}
+
+	.pad {
+		margin-top: -50px;
+	}
+
+	.backsch {
+		width: 450px;
+		margin-top: 700px;
+		display: block;
+		height: 650px;
+		background-color: #191A23;
+		position: absolute;
+	}
+
+	.tropico {
+		width: 69px;
+		height: 69px;
+		margin-top: 50px;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+	.troph1 {
+		text-align: left;
+		font: normal normal normal 22px/32px Permanent Marker, Regular;
+		letter-spacing: 0px;
+		margin-top: 30px;
+		color: #FFFFFF;
+		margin-left: 30px;
+	}
+
+	.tropp {
+		text-align: left;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		margin-left: 30px;
+		margin-top: 20px;
+		width: 70%;
+		font-family: Segoe UI light;
+		font-size: 16px;
+	}
+
+	.tropimg {
+		display: none;
+	}
+
+	.backiconz {
+		display: none;
+	}
+	.backiconz2 {
+		display: none;
+	}
+	.backiconz3 {
+		display: none;
+	}
+
+	.pad2 {
+		margin-top: 770px;
+	}
+
+	.faq {
+		text-align: center;
+		font: normal normal normal 40px/58px Permanent Marker, Regular;
+		letter-spacing: 0px;
+		color: #0D3B5E;
+		margin-left: 40px;
+		font-size: 23px;
+		font-weight: bold;
+		font-style: italic;
+		position: absolute;
+		display: block;
+	}
+
+	.faqimg {
+		display: block;
+		margin-left: 50px;
+ 		margin-right: auto;
+ 		margin-top: 90px;
+ 		margin-bottom: 30px;
+ 		width: 80%;
+ 		position: absolute;
+	}
+
+
+	.collapsible {
+		background-color: #F7F3EA;
+		cursor: pointer;
+		padding: 18px;
+		width: 90%;
+		border: none;
+		text-align: left;
+		outline: none;
+		display: block;
+		margin-left: 10px;
+		margin-right: 20px;
+		font: normal normal bold 14px/19px Segoe UI;
+		letter-spacing: 0.56px;
+		color: #202020;
+		text-transform: uppercase;
+	}
+
+	.active, .collapsible:hover {
+		background-color: #F7F3EA;
+	}
+
+	.content {
+		padding: 0 18px;
+		display: none;
+		overflow: hidden;
+		display: block;
+		margin-left: 10px;
+		margin-right: 20px;
+		text-align: left;
+		font: normal normal 600 14px/28px Segoe UI;
+		letter-spacing: 0px;
+		color: #202020;
+	}
+
+	.faqdiv {
+		padding-top: 300px;
+	}
+
+
+	.lastd {
+		display: block;
+		background-color: #222531;
+		margin-top: -280px;
+		margin-left: 0px;
+		position: absolute;
+		width: 440px;
+	}
+
+	.lastimg {
+		display: block;
+		opacity: 0.9;
+		float: left;
+		position: absolute;
+		width: 440px;
+	}
+
+	.lasth1 {
+		font: normal normal 600 20px/23px Segoe UI;
+		display: block;
+		color: white;
+		float: left;
+		margin-top: 250px;
+		margin-left: 10px;
+		
+		position: absolute;
+	}
+
+	.lastp {
+		font: normal normal 600 14px/28px Segoe UI;
+		display: block;
+		color: white;
+		float: left;
+		margin-left: 10px;
+		margin-right: -200px;
+		margin-top: 300px;
+	}
+
+	.lastb {
+		display: block;
+		float: left;
+		margin-top: 20px;
+		margin-left: 130px;
+		padding: 10px 50px;
+		font: normal normal 600 14px/19px Segoe UI;
+		margin-bottom: 30px;
+	}
+
+	.foot {
+		margin-top: -10px;
+		margin-left: -10px;
+		margin-bottom: -10px;
+		padding-bottom: 10px;
+		background-color: #191A23;
+		position: absolute;
+		width: 450px;
+		z-index: -10;
+	}
+
+	.logo2 {
+		display: inline-block;
+		margin-top: 250px;
+		margin-left: 150px;
+		width: 140px;
+		height: 127px;
+	}
+
+	.copy {
+		color: white;
+		display: block;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+
+	.navv {
+		display: block;
+		margin-right: 0px;
+		margin-top: 20px;
+		float: left;
+		position: relative;
+
+	}
+}
